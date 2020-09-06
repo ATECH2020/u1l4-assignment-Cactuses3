@@ -1,3 +1,7 @@
+//Name: Patrick McNulty
+//Date: 9-6-20
+//Assignment: Timestamps
+
 import java.util.Scanner;
 
 class Timestamps {
@@ -18,7 +22,10 @@ class Timestamps {
         /*
          *  your code goes here
          */
-
+        int oneSeconds = (hours1 * 3600) + (minutes1 * 60) + seconds1;
+        int twoSeconds = (hours2 * 3600) + (minutes2 * 60) + seconds2;
+        int difference = twoSeconds - oneSeconds;
+        System.out.print(difference);
 
         // closing the scanner object
         scanner.close();
